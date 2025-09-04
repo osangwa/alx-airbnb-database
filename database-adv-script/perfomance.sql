@@ -1,4 +1,5 @@
 -- Initial complex query: All bookings with user, property, and payment details
+EXPLAIN ANALYZE
 SELECT b.id AS booking_id,
        u.name AS guest_name,
        u.email,
